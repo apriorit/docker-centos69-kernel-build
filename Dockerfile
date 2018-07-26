@@ -11,7 +11,6 @@ RUN yum -y 	install \
 		instahmaccalc \
 		zlib-devel \
 		binutils-devel \
-		elfutils-libelf-devel \
 		rpm-build \
 		redhat-rpm-config \
 		asciidoc \
@@ -21,9 +20,10 @@ RUN yum -y 	install \
 		perl-ExtUtils-Embed \
 		xmlto \
 		audit-libs-devel \
-		binutils-devel \
 		elfutils-devel \
 		elfutils-libelf-devel \
 		newt-devel \
 		python-devel \
-		zlib-devel
+		zlib-devel \
+		gcc \
+		openssl-devel
